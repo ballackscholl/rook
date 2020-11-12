@@ -19,10 +19,10 @@ metadata:
 spec:
   tls:
    - hosts:
-     - rook-ceph.example.com
-     secretName: rook-ceph.example.com
+     - ceph.wog
+     secretName: ceph.wog
   rules:
-  - host: rook-ceph.example.com
+  - host: ceph.wog
     http:
       paths:
       - path: /
