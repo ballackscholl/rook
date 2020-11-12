@@ -7,13 +7,13 @@
 apiVersion: ceph.rook.io/v1
 kind: CephFilesystem
 metadata:
-  name: myfs
+  name: meteofs
   namespace: rook-ceph
 spec:
   # The metadata pool spec. Must use replication.
   metadataPool:
     replicated:
-      size: 3
+      size: 2
       requireSafeReplicaSize: true
     parameters:
       # Inline compression mode for the data pool
