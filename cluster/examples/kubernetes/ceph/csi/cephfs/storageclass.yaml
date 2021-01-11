@@ -16,7 +16,7 @@ parameters:
 
   # Root path of an existing CephFS volume
   # Required for provisionVolume: "false"
-  # rootPath: /absolute/path
+  rootPath: /k8s/storageclass
 
   # The secrets contain Ceph admin credentials. These are generated automatically by the operator
   # in the same namespace as the cluster.
