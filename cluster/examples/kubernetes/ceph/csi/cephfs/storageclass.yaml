@@ -8,11 +8,11 @@ parameters:
   clusterID: rook-ceph
 
   # CephFS filesystem name into which the volume shall be created
-  fsName: myfs
+  fsName: meteofs
 
   # Ceph pool into which the volume shall be created
   # Required for provisionVolume: "true"
-  pool: myfs-data0
+  pool: meteofs-data0
 
   # Root path of an existing CephFS volume
   # Required for provisionVolume: "false"
