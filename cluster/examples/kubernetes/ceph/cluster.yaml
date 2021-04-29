@@ -270,13 +270,13 @@ spec:
       devices: # specific devices to use for storage can be specified for each node
       - name: "sdb"
       - name: "sdc"
-    - name: "m-21-114"
-      devices: # specific devices to use for storage can be specified for each node
-      - name: "sdb"
-      - name: "sdc"
-      - name: "sdd"
-      - name: "sde"
-      - name: "sdf"
+    # - name: "m-21-114"
+    #   devices: # specific devices to use for storage can be specified for each node
+    #   - name: "sdb"
+    #   - name: "sdc"
+    #   - name: "sdd"
+    #   - name: "sde"
+    #   - name: "sdf"
     - name: "m-21-121"
       devices: # specific devices to use for storage can be specified for each node
       - name: "sdb"
